@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Replace the domain below with your final site URL.
-Sitemap: https://kesharaindukumara.github.io/sitemap.xml
+Sitemap: https://kesharaindukumara.github.io/Portfolio-v2/
