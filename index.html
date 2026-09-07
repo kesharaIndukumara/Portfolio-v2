@@ -1,0 +1,1508 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      ============================================================
+      SEO: set your real site URL below, then Find &amp; Replace every
+      occurrence of  https://kesharaindukumara.github.io  in this file
+      (canonical, og:url, twitter:url, JSON-LD, sitemap.xml, robots.txt)
+      with your final domain, e.g. https://your-name.com
+      ============================================================
+    -->
+    <title>Keshara Indukumara | Associate Software Engineer &amp; Full-Stack Developer (Next.js, Spring Boot)</title>
+    <meta
+      name="description"
+      content="Keshara Indukumara - Associate Software Engineer and full-stack developer in Colombo, Sri Lanka. Building responsive web apps and scalable REST APIs with Next.js, React, Spring Boot and SQL at Helixz Solutions. Open to junior and associate software engineer roles."
+    />
+    <meta
+      name="keywords"
+      content="Keshara Indukumara, Keshara Indukumara portfolio, Keshara Indukumara developer, software engineer Sri Lanka, full-stack developer Colombo, Next.js developer, React developer, Spring Boot developer, Java developer Sri Lanka, associate software engineer, Helixz Solutions"
+    />
+    <meta name="author" content="Keshara Indukumara" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#0b0f1a" />
+    <meta name="color-scheme" content="dark light" />
+    <!-- After adding this site in Google Search Console, paste the verification token:
+    <meta name="google-site-verification" content="YOUR_TOKEN" /> -->
+
+    <link rel="canonical" href="https://kesharaindukumara.github.io/" />
+
+    <!-- Identity links (rel=me helps engines connect your profiles to this page) -->
+    <link rel="me" href="https://github.com/kesharaIndukumara" />
+    <link rel="me" href="https://www.linkedin.com/in/kesharaindukumara/" />
+    <link rel="me" href="mailto:kesharaindukumara@outlook.com" />
+    <link rel="sitemap" type="application/xml" href="sitemap.xml" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Keshara Indukumara" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="Keshara Indukumara | Associate Software Engineer &amp; Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Full-stack developer building responsive web apps and scalable REST APIs with Next.js, React, Spring Boot and SQL. Open to junior and associate roles."
+    />
+    <meta property="og:url" content="https://kesharaindukumara.github.io/" />
+    <meta property="og:image" content="https://kesharaindukumara.github.io/assets/img/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Keshara Indukumara - Associate Software Engineer" />
+    <meta property="profile:first_name" content="Keshara" />
+    <meta property="profile:last_name" content="Indukumara" />
+    <meta property="profile:username" content="kesharaIndukumara" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Keshara Indukumara | Associate Software Engineer &amp; Full-Stack Developer" />
+    <meta
+      name="twitter:description"
+      content="Full-stack developer building responsive web apps and scalable REST APIs with Next.js, React, Spring Boot and SQL. Open to junior and associate roles."
+    />
+    <meta name="twitter:image" content="https://kesharaindukumara.github.io/assets/img/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Keshara Indukumara - Associate Software Engineer" />
+
+    <!-- Monogram favicon (inline, works offline) -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%234f46e5'/%3E%3Ctext x='50%25' y='50%25' dy='.35em' text-anchor='middle' font-family='Segoe UI, Arial, sans-serif' font-size='30' font-weight='700' fill='white'%3EKI%3C/text%3E%3C/svg%3E"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind (Play CDN, no build step) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              ink: { 950: "#070a13", 900: "#0b0f1a", 850: "#0f1524", 800: "#141c30", 700: "#1c2740" },
+              brand: {
+                50: "#eef2ff",
+                100: "#e0e7ff",
+                200: "#c7d2fe",
+                300: "#a5b4fc",
+                400: "#818cf8",
+                500: "#6366f1",
+                600: "#4f46e5",
+                700: "#4338ca",
+              },
+            },
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+              mono: ['"JetBrains Mono"', "ui-monospace", "monospace"],
+            },
+            maxWidth: { content: "72rem" },
+          },
+        },
+      };
+    </script>
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <noscript>
+      <style>
+        /* Without JS the reveal-on-scroll observer never runs, so show everything. */
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style>
+    </noscript>
+
+    <!-- Structured data for recruiters / search engines -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://kesharaindukumara.github.io/#website",
+            "url": "https://kesharaindukumara.github.io/",
+            "name": "Keshara Indukumara",
+            "description": "Portfolio of Keshara Indukumara, Associate Software Engineer and full-stack developer.",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://kesharaindukumara.github.io/#person" }
+          },
+          {
+            "@type": "ProfilePage",
+            "@id": "https://kesharaindukumara.github.io/#webpage",
+            "url": "https://kesharaindukumara.github.io/",
+            "name": "Keshara Indukumara | Associate Software Engineer & Full-Stack Developer",
+            "isPartOf": { "@id": "https://kesharaindukumara.github.io/#website" },
+            "about": { "@id": "https://kesharaindukumara.github.io/#person" },
+            "inLanguage": "en"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://kesharaindukumara.github.io/#person",
+            "name": "Keshara Indukumara",
+            "givenName": "Keshara",
+            "familyName": "Indukumara",
+            "url": "https://kesharaindukumara.github.io/",
+            "image": "https://kesharaindukumara.github.io/assets/img/keshara-avatar.jpg",
+            "jobTitle": "Associate Software Engineer",
+            "description": "Associate Software Engineer and full-stack developer building responsive web applications and scalable REST APIs with Next.js, React, Spring Boot and SQL.",
+            "email": "mailto:kesharaindukumara@outlook.com",
+            "telephone": "+94-77-548-6816",
+            "nationality": "Sri Lankan",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Colombo",
+              "addressRegion": "Western Province",
+              "addressCountry": "LK"
+            },
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Helixz Solutions"
+            },
+            "alumniOf": [
+              { "@type": "CollegeOrUniversity", "name": "University of Colombo", "url": "https://ucsc.cmb.ac.lk/" },
+              { "@type": "EducationalOrganization", "name": "iCET (ICD Developer Programme)" }
+            ],
+            "knowsLanguage": ["Sinhala", "English"],
+            "knowsAbout": [
+              "Java",
+              "Spring Boot",
+              "JavaScript",
+              "TypeScript",
+              "React",
+              "Next.js",
+              "REST APIs",
+              "SQL",
+              "MySQL",
+              "Hibernate",
+              "JPA",
+              "Tailwind CSS",
+              "Git",
+              "Full-Stack Web Development"
+            ],
+            "hasCredential": [
+              {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Kubernetes for Absolute Beginners",
+                "credentialCategory": "certificate",
+                "recognizedBy": { "@type": "Organization", "name": "KodeKloud" },
+                "url": "https://learn.kodekloud.com/certificate/b455979c-06e6-40b4-a63f-2b5f32faa795"
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Linux for Absolute Beginners",
+                "credentialCategory": "certificate",
+                "recognizedBy": { "@type": "Organization", "name": "KodeKloud" },
+                "url": "https://learn.kodekloud.com/certificate/22a00084-8ecb-42b8-98dc-faf184064847"
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                "name": "Docker for Absolute Beginners",
+                "credentialCategory": "certificate",
+                "recognizedBy": { "@type": "Organization", "name": "KodeKloud" },
+                "url": "https://learn.kodekloud.com/certificate/7300da94-4f0e-4591-a249-b40d90f62612"
+              }
+            ],
+            "sameAs": [
+              "https://github.com/kesharaIndukumara",
+              "https://www.linkedin.com/in/kesharaindukumara/"
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-3 focus:left-3 focus:rounded-lg focus:bg-brand-600 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+      >Skip to content</a
+    >
+
+    <!-- ============================= HEADER ============================= -->
+    <header class="site-header" id="siteHeader">
+      <div class="container-page flex h-16 items-center justify-between sm:h-20">
+        <a
+          href="#home"
+          class="flex items-center gap-2.5 font-semibold text-white"
+          aria-label="Keshara Indukumara, back to top"
+        >
+          <span class="grid h-9 w-9 place-items-center rounded-lg bg-brand-600 font-mono text-sm font-bold">KI</span>
+          <span class="hidden sm:block">Keshara Indukumara</span>
+        </a>
+
+        <nav class="hidden items-center gap-6 md:flex lg:gap-7" aria-label="Primary">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#current-work" class="nav-link">Current&nbsp;Work</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <a href="assets/resume.pdf" class="btn-primary hidden sm:inline-flex" download>
+            <svg
+              class="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Resume
+          </a>
+          <button
+            id="menuToggle"
+            type="button"
+            class="icon-btn md:hidden"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobileMenu"
+          >
+            <svg
+              id="menuIcon"
+              class="h-5 w-5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="mobile-menu border-t border-white/10 bg-ink-900/95 backdrop-blur md:hidden">
+        <nav class="container-page flex flex-col py-4" aria-label="Mobile">
+          <a href="#about" class="border-b border-white/5 py-3 text-slate-300">About</a>
+          <a href="#skills" class="border-b border-white/5 py-3 text-slate-300">Skills</a>
+          <a href="#experience" class="border-b border-white/5 py-3 text-slate-300">Experience</a>
+          <a href="#current-work" class="border-b border-white/5 py-3 text-slate-300">Current Work</a>
+          <a href="#projects" class="border-b border-white/5 py-3 text-slate-300">Projects</a>
+          <a href="#education" class="border-b border-white/5 py-3 text-slate-300">Education</a>
+          <a href="#contact" class="py-3 text-slate-300">Contact</a>
+          <a href="assets/resume.pdf" class="btn-primary mt-4" download>Download Resume</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============================= HERO ============================= -->
+      <section id="home" class="relative overflow-hidden">
+        <div
+          class="absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_at_top,black,transparent_70%)]"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="glow"
+          style="top: -6rem; left: -4rem; width: 22rem; height: 22rem; background: #4f46e5"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="glow"
+          style="bottom: -8rem; right: -6rem; width: 26rem; height: 26rem; background: #6366f1; opacity: 0.35"
+          aria-hidden="true"
+        ></div>
+
+        <div
+          class="container-page relative grid items-center gap-12 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.15fr_0.85fr] lg:pb-28"
+        >
+          <div>
+            <p
+              class="inline-flex items-center gap-2 rounded-full border border-emerald-400/25 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300"
+            >
+              <span class="status-dot"></span>
+              Open to Junior &amp; Associate Software Engineer roles
+            </p>
+
+            <h1 class="mt-6 text-4xl font-extrabold leading-[1.08] sm:text-5xl lg:text-6xl">Keshara Indukumara</h1>
+            <p class="mt-3 text-lg font-medium text-brand-300 sm:text-xl">
+              Associate Software Engineer &middot; Full-Stack Developer
+            </p>
+
+            <p class="mt-6 max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg">
+              I build responsive web applications and scalable REST APIs. Currently at
+              <span class="text-slate-200">Helixz Solutions</span>, working across the stack with
+              <span class="text-slate-200">Next.js</span>, <span class="text-slate-200">Spring Boot</span> and
+              <span class="text-slate-200">SQL</span> to ship real-world solutions. Driven by a genuine love for
+              problem-solving and for clean, maintainable code.
+            </p>
+
+            <div class="mt-8 flex flex-wrap items-center gap-3">
+              <a href="#projects" class="btn-primary">
+                View Projects
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <polyline points="12 5 19 12 12 19" />
+                </svg>
+              </a>
+              <a href="assets/resume.pdf" class="btn-ghost" download>
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <div class="mt-8 flex items-center gap-3">
+              <a
+                href="https://github.com/kesharaIndukumara"
+                class="icon-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub profile"
+              >
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kesharaindukumara/"
+                class="icon-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile"
+              >
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"
+                  />
+                </svg>
+              </a>
+              <a href="mailto:kesharaindukumara@outlook.com" class="icon-btn" aria-label="Email Keshara">
+                <svg
+                  class="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-10 6L2 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="relative mx-auto w-full max-w-sm lg:max-w-none">
+            <div
+              class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-brand-600/30 to-transparent blur-2xl"
+              aria-hidden="true"
+            ></div>
+            <div class="relative overflow-hidden rounded-3xl border border-white/10 bg-ink-850">
+              <img
+                src="assets/img/keshara.jpg"
+                width="960"
+                height="1200"
+                alt="Portrait of Keshara Indukumara"
+                class="h-full w-full object-cover"
+                fetchpriority="high"
+              />
+              <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink-950/70 via-transparent"></div>
+              <div
+                class="absolute bottom-0 left-0 right-0 flex items-center justify-between p-4 font-mono text-xs text-slate-300"
+              >
+                <span class="inline-flex items-center gap-1.5">
+                  <svg
+                    class="h-3.5 w-3.5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Kelanimulla, Sri Lanka
+                </span>
+                <span class="text-brand-300">@kesharaIndukumara</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- quick facts strip -->
+        <div class="border-y border-white/10 bg-white/[0.02]">
+          <div class="container-page grid grid-cols-2 divide-x divide-white/10 sm:grid-cols-4">
+            <div class="px-2 py-5 text-center sm:py-6">
+              <p class="text-2xl font-bold text-white">2025</p>
+              <p class="mt-1 text-xs text-slate-400">Started at Helixz Solutions</p>
+            </div>
+            <div class="px-2 py-5 text-center sm:py-6">
+              <p class="text-2xl font-bold text-white">6+ mo</p>
+              <p class="mt-1 text-xs text-slate-400">Hands-on industry experience</p>
+            </div>
+            <div class="px-2 py-5 text-center sm:py-6">
+              <p class="text-2xl font-bold text-white">BIT</p>
+              <p class="mt-1 text-xs text-slate-400">Undergraduate, Univ. of Colombo</p>
+            </div>
+            <div class="px-2 py-5 text-center sm:py-6">
+              <p class="text-2xl font-bold text-white">3</p>
+              <p class="mt-1 text-xs text-slate-400">KodeKloud certifications</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= ABOUT ============================= -->
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container-page grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
+          <div class="reveal">
+            <p class="eyebrow">01 &middot; About</p>
+            <h2 id="about-title" class="section-title">A developer who ships and keeps learning</h2>
+            <div class="mt-6 space-y-4 text-slate-400">
+              <p>
+                Passionate full-stack developer with hands-on experience building responsive web applications and
+                scalable REST APIs. Currently contributing at
+                <span class="text-slate-200">Helixz Solutions</span>, where I work across the stack using Next.js,
+                Spring Boot and SQL to deliver real-world solutions. I&rsquo;m driven by a genuine love for
+                problem-solving: breaking down complex challenges and engineering clean, maintainable code that makes a
+                difference.
+              </p>
+              <p>
+                I collaborate well in team environments, value clear communication, and bring a disciplined,
+                detail-oriented approach to every project. Always eager to explore new technologies and grow as a
+                developer, I&rsquo;m actively looking to contribute meaningfully to a forward-thinking team.
+              </p>
+            </div>
+          </div>
+
+          <div class="reveal grid auto-rows-min gap-4 sm:grid-cols-2 lg:self-center">
+            <div class="card p-5">
+              <div class="flex items-center gap-2 text-brand-300">
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" />
+                  <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                </svg>
+                <p class="text-xs font-mono uppercase tracking-wider">Currently</p>
+              </div>
+              <p class="mt-2.5 text-sm text-slate-200">Full-Stack Developer Intern</p>
+              <p class="text-sm text-slate-400">Helixz Solutions &middot; 2025&ndash;Present</p>
+            </div>
+            <div class="card p-5">
+              <div class="flex items-center gap-2 text-brand-300">
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                </svg>
+                <p class="text-xs font-mono uppercase tracking-wider">Education</p>
+              </div>
+              <p class="mt-2.5 text-sm text-slate-200">BSc Information Technology</p>
+              <p class="text-sm text-slate-400">University of Colombo &middot; 2nd year</p>
+            </div>
+            <div class="card p-5">
+              <div class="flex items-center gap-2 text-brand-300">
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <circle cx="12" cy="12" r="6" />
+                  <circle cx="12" cy="12" r="2" />
+                </svg>
+                <p class="text-xs font-mono uppercase tracking-wider">Focus</p>
+              </div>
+              <p class="mt-2.5 text-sm text-slate-200">Next.js &middot; Spring Boot</p>
+              <p class="text-sm text-slate-400">REST APIs, SQL, clean architecture</p>
+            </div>
+            <div class="card p-5">
+              <div class="flex items-center gap-2 text-brand-300">
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"
+                  />
+                </svg>
+                <p class="text-xs font-mono uppercase tracking-wider">Languages</p>
+              </div>
+              <p class="mt-2.5 text-sm text-slate-200">English professional</p>
+              <p class="text-sm text-slate-400">Sinhala native</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= SKILLS ============================= -->
+      <section id="skills" class="section bg-white/[0.015]" aria-labelledby="skills-title">
+        <div class="container-page">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow">02 &middot; Tech Stack</p>
+            <h2 id="skills-title" class="section-title">Tools I build with</h2>
+            <p class="section-lead">
+              The languages, frameworks and tools I use day to day, on the job and in personal projects.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div class="card reveal p-6">
+              <h3 class="flex items-center gap-2 text-base">
+                <svg
+                  class="h-5 w-5 text-brand-400"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <polyline points="16 18 22 12 16 6" />
+                  <polyline points="8 6 2 12 8 18" />
+                </svg>
+                Languages
+              </h3>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="chip">Java</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">HTML</span>
+                <span class="chip">Python</span>
+              </div>
+            </div>
+
+            <div class="card reveal p-6">
+              <h3 class="flex items-center gap-2 text-base">
+                <svg
+                  class="h-5 w-5 text-brand-400"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M12 2 2 7l10 5 10-5-10-5Z" />
+                  <path d="m2 17 10 5 10-5" />
+                  <path d="m2 12 10 5 10-5" />
+                </svg>
+                Frameworks &amp; Libraries
+              </h3>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="chip">Spring Boot</span>
+                <span class="chip">JPA / Hibernate</span>
+                <span class="chip">JavaFX</span>
+                <span class="chip">Electron</span>
+                <span class="chip">Tailwind CSS</span>
+                <span class="chip">Bootstrap</span>
+              </div>
+            </div>
+
+            <div class="card reveal p-6">
+              <h3 class="flex items-center gap-2 text-base">
+                <svg
+                  class="h-5 w-5 text-brand-400"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <ellipse cx="12" cy="5" rx="9" ry="3" />
+                  <path d="M3 5v14a9 3 0 0 0 18 0V5" />
+                  <path d="M3 12a9 3 0 0 0 18 0" />
+                </svg>
+                Databases
+              </h3>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="chip">MySQL</span>
+                <span class="chip">SQLite</span>
+              </div>
+            </div>
+
+            <div class="card reveal p-6 md:col-span-2">
+              <h3 class="flex items-center gap-2 text-base">
+                <svg
+                  class="h-5 w-5 text-brand-400"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76Z"
+                  />
+                </svg>
+                Tools
+              </h3>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="chip">Git &amp; GitHub</span>
+                <span class="chip">IntelliJ IDEA</span>
+                <span class="chip">WebStorm</span>
+                <span class="chip">DataGrip</span>
+                <span class="chip">VS Code</span>
+                <span class="chip">Postman</span>
+                <span class="chip">Swagger</span>
+                <span class="chip">MySQL Workbench</span>
+                <span class="chip">Figma</span>
+              </div>
+            </div>
+
+            <div class="card reveal p-6">
+              <h3 class="flex items-center gap-2 text-base">
+                <svg
+                  class="h-5 w-5 text-brand-400"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M12 20h9" />
+                  <path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z" />
+                </svg>
+                Currently Learning
+              </h3>
+              <div class="mt-4 flex flex-wrap gap-2">
+                <span class="chip">Next.js</span>
+                <span class="chip">React</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= EXPERIENCE ============================= -->
+      <section id="experience" class="section" aria-labelledby="experience-title">
+        <div class="container-page">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow">03 &middot; Experience</p>
+            <h2 id="experience-title" class="section-title">Where I&rsquo;ve worked</h2>
+          </div>
+
+          <div class="mt-12 max-w-3xl">
+            <div class="timeline-item reveal">
+              <span class="timeline-dot" aria-hidden="true"></span>
+              <div class="card p-6 sm:p-8">
+                <div class="flex flex-wrap items-start justify-between gap-2">
+                  <div>
+                    <h3 class="text-lg">Full-Stack Developer Intern</h3>
+                    <p class="mt-1 text-brand-300">Helixz Solutions</p>
+                  </div>
+                  <span
+                    class="rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs text-slate-400"
+                    >2025 &ndash; Present</span
+                  >
+                </div>
+
+                <p class="mt-4 text-sm leading-relaxed text-slate-400">
+                  Contributing to real-world Next.js projects within a professional team environment. Over 6+ months I
+                  have grown significantly as a developer: strengthening my coding principles, collaborating closely with
+                  teammates, and gaining firsthand experience of how a software company operates end to end.
+                </p>
+
+                <ul class="mt-5 space-y-2.5 text-sm text-slate-400">
+                  <li class="flex gap-3">
+                    <svg
+                      class="mt-1 h-4 w-4 flex-none text-brand-400"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Built and maintained features in production-level Next.js applications, writing clean and scalable
+                    code.
+                  </li>
+                  <li class="flex gap-3">
+                    <svg
+                      class="mt-1 h-4 w-4 flex-none text-brand-400"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Adopted AI-assisted development, leveraging coding tools to improve productivity and output quality.
+                  </li>
+                  <li class="flex gap-3">
+                    <svg
+                      class="mt-1 h-4 w-4 flex-none text-brand-400"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Performed bug fixing and debugging across the codebase, improving application stability and
+                    performance.
+                  </li>
+                  <li class="flex gap-3">
+                    <svg
+                      class="mt-1 h-4 w-4 flex-none text-brand-400"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Participated in post-development testing to ensure application reliability before delivery.
+                  </li>
+                  <li class="flex gap-3">
+                    <svg
+                      class="mt-1 h-4 w-4 flex-none text-brand-400"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <polyline points="20 6 9 17 4 12" />
+                    </svg>
+                    Worked directly with client requirements, translating them into technical solutions in an agile
+                    team.
+                  </li>
+                </ul>
+
+                <div class="mt-6 flex flex-wrap gap-1.5">
+                  <span class="chip-tech">Next.js</span>
+                  <span class="chip-tech">React</span>
+                  <span class="chip-tech">Spring Boot</span>
+                  <span class="chip-tech">SQL</span>
+                  <span class="chip-tech">Agile</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= CURRENT WORK ============================= -->
+      <section id="current-work" class="section" aria-labelledby="current-work-title">
+        <div class="container-page">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow">04 &middot; Current Work</p>
+            <h2 id="current-work-title" class="section-title">What I&rsquo;m building at Helixz</h2>
+            <p class="section-lead">My main focus right now, and the day-to-day engineering behind my internship.</p>
+          </div>
+
+          <div class="reveal mt-12">
+            <div class="card overflow-hidden">
+              <div class="grid gap-0 lg:grid-cols-[1fr_1.35fr]">
+                <!-- left: identity -->
+                <div
+                  class="relative flex flex-col justify-between gap-6 border-b border-white/10 bg-gradient-to-br from-brand-600/20 via-ink-850 to-ink-900 p-7 lg:border-b-0 lg:border-r"
+                >
+                  <div>
+                    <span
+                      class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 font-mono text-xs text-brand-200"
+                    >
+                      <span class="status-dot"></span> Active &middot; 2025&ndash;Present
+                    </span>
+                    <h3 class="mt-5 text-xl">Pnyx Survey Platform</h3>
+                    <p class="mt-1 text-sm text-brand-300">Full-Stack Developer Intern &middot; Helixz Solutions</p>
+                    <p class="mt-4 text-sm leading-relaxed text-slate-400">
+                      Pnyx is a survey platform covering survey delivery, respondent flows and admin tooling. I work on
+                      its frontend, where the team is migrating the product from a React&nbsp;+&nbsp;Vite codebase to
+                      <span class="text-slate-200">Next.js (App Router)</span>
+                      to gain file-based routing, server rendering and built-in API routes.
+                    </p>
+                  </div>
+                  <div class="flex flex-wrap gap-1.5">
+                    <span class="chip-tech">Next.js 15</span>
+                    <span class="chip-tech">TypeScript</span>
+                    <span class="chip-tech">Redux Toolkit</span>
+                    <span class="chip-tech">redux-saga</span>
+                    <span class="chip-tech">NextAuth</span>
+                    <span class="chip-tech">Ant Design</span>
+                    <span class="chip-tech">MUI</span>
+                    <span class="chip-tech">Radix UI</span>
+                    <span class="chip-tech">Tailwind CSS</span>
+                    <span class="chip-tech">styled-components</span>
+                    <span class="chip-tech">ApexCharts</span>
+                    <span class="chip-tech">React Hook Form</span>
+                    <span class="chip-tech">Zod</span>
+                    <span class="chip-tech">pnpm</span>
+                  </div>
+                </div>
+
+                <!-- right: contributions -->
+                <div class="p-7">
+                  <p class="text-xs font-mono uppercase tracking-wider text-brand-300">What I do on the project</p>
+                  <ul class="mt-4 space-y-3 text-sm text-slate-400">
+                    <li class="flex gap-3">
+                      <svg
+                        class="mt-0.5 h-4 w-4 flex-none text-brand-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Migrate feature modules (authentication, respondent flows and shared UI) from the
+                      React&nbsp;+&nbsp;Vite codebase to the Next.js App Router, using the server / client component
+                      pattern.
+                    </li>
+                    <li class="flex gap-3">
+                      <svg
+                        class="mt-0.5 h-4 w-4 flex-none text-brand-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Build and maintain production features in TypeScript within a modular, feature-based architecture.
+                    </li>
+                    <li class="flex gap-3">
+                      <svg
+                        class="mt-0.5 h-4 w-4 flex-none text-brand-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Manage application state with Redux Toolkit and redux-saga; handle auth and OAuth via NextAuth.
+                    </li>
+                    <li class="flex gap-3">
+                      <svg
+                        class="mt-0.5 h-4 w-4 flex-none text-brand-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Implement interfaces with Ant Design, MUI and Radix, styled with Tailwind CSS and
+                      styled-components; wire up charts, forms and Zod validation.
+                    </li>
+                    <li class="flex gap-3">
+                      <svg
+                        class="mt-0.5 h-4 w-4 flex-none text-brand-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Work to the team&rsquo;s quality gates: ESLint, Husky and lint-staged pre-commit checks, and peer
+                      code review.
+                    </li>
+                    <li class="flex gap-3">
+                      <svg
+                        class="mt-0.5 h-4 w-4 flex-none text-brand-400"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        aria-hidden="true"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                      Collaborate in an agile team and translate client requirements into shipped functionality.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= PROJECTS ============================= -->
+      <section id="projects" class="section bg-white/[0.015]" aria-labelledby="projects-title">
+        <div class="container-page">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow">05 &middot; Projects</p>
+            <h2 id="projects-title" class="section-title">Selected work</h2>
+            <p class="section-lead">
+              A mix of full-stack web apps and desktop tools, from a bus-ticketing platform to a reconciliation
+              automation tool. Source is on GitHub.
+            </p>
+          </div>
+
+          <div class="mt-12 grid gap-6 lg:grid-cols-3">
+            <!-- ReconcileX -->
+            <article class="card card-hover reveal flex flex-col overflow-hidden">
+              <div
+                class="relative flex h-36 items-center justify-center border-b border-white/10 bg-gradient-to-br from-brand-600/25 via-ink-850 to-ink-900"
+              >
+                <svg
+                  class="h-10 w-10 text-brand-300"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+                  <path d="M3 3v5h5" />
+                  <path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16" />
+                  <path d="M16 16h5v5" />
+                </svg>
+                <span class="absolute bottom-3 left-4 font-mono text-xs text-brand-200/80">~/reconcilex</span>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <div class="flex items-start justify-between gap-3">
+                  <h3 class="text-lg">ReconcileX</h3>
+                  <span class="flex-none font-mono text-xs text-slate-500">Apr 2026&ndash;Present</span>
+                </div>
+                <p class="mt-1 text-sm text-brand-300">Reconciliation Automation Tool</p>
+                <p class="mt-3 text-sm leading-relaxed text-slate-400">
+                  A cross-platform desktop application for advanced reconciliation automation: reliable, scalable
+                  comparison of financial, business and operational data.
+                </p>
+                <ul class="mt-4 space-y-1.5 text-sm text-slate-400">
+                  <li class="flex gap-2">
+                    <span class="text-brand-400">&rsaquo;</span> Automated data upload &amp; matching
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-brand-400">&rsaquo;</span> Customizable reconciliation rules engine
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-brand-400">&rsaquo;</span> Result visualization with clear reports
+                  </li>
+                  <li class="flex gap-2">
+                    <span class="text-brand-400">&rsaquo;</span> Error identification &amp; step-by-step audit trails
+                  </li>
+                </ul>
+                <div class="mt-5 flex flex-wrap gap-1.5">
+                  <span class="chip-tech">TypeScript</span>
+                  <span class="chip-tech">JavaScript</span>
+                  <span class="chip-tech">Electron</span>
+                  <span class="chip-tech">SQLite</span>
+                </div>
+                <div class="mt-auto flex gap-4 border-t border-white/10 pt-4">
+                  <a
+                    href="https://github.com/kesharaIndukumara/ReconcileX"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-300 hover:text-white"
+                  >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5Z"
+                      />
+                    </svg>
+                    Code
+                    <svg
+                      class="h-3.5 w-3.5 text-slate-500"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M7 17 17 7" />
+                      <path d="M7 7h10v10" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- BusEase -->
+            <article class="card card-hover reveal flex flex-col overflow-hidden">
+              <div
+                class="relative flex h-36 items-center justify-center border-b border-white/10 bg-gradient-to-br from-brand-600/25 via-ink-850 to-ink-900"
+              >
+                <svg
+                  class="h-10 w-10 text-brand-300"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M8 6v6" />
+                  <path d="M15 6v6" />
+                  <path d="M2 12h19.6" />
+                  <path
+                    d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20 6.8 19.4 6 18.5 6H4a2 2 0 0 0-2 2v10h3"
+                  />
+                  <circle cx="7" cy="18" r="2" />
+                  <path d="M9 18h5" />
+                  <circle cx="16" cy="18" r="2" />
+                </svg>
+                <span class="absolute bottom-3 left-4 font-mono text-xs text-brand-200/80">~/busease</span>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <div class="flex items-start justify-between gap-3">
+                  <h3 class="text-lg">BusEase</h3>
+                  <span class="flex-none font-mono text-xs text-slate-500">Aug 2025</span>
+                </div>
+                <p class="mt-1 text-sm text-brand-300">Bus Ticketing System &middot; Full-Stack</p>
+                <p class="mt-3 text-sm leading-relaxed text-slate-400">
+                  A full-stack, three-actor web application that centralises bus ticket purchasing and route management
+                  for commuters and operators.
+                </p>
+                <ul class="mt-4 space-y-1.5 text-sm text-slate-400">
+                  <li class="flex gap-2"><span class="text-brand-400">&rsaquo;</span> Browse routes &amp; schedules</li>
+                  <li class="flex gap-2">
+                    <span class="text-brand-400">&rsaquo;</span> Book tickets with seat selection
+                  </li>
+                  <li class="flex gap-2"><span class="text-brand-400">&rsaquo;</span> View booking history</li>
+                  <li class="flex gap-2"><span class="text-brand-400">&rsaquo;</span> Submit service ratings</li>
+                </ul>
+                <div class="mt-5 flex flex-wrap gap-1.5">
+                  <span class="chip-tech">React</span>
+                  <span class="chip-tech">TypeScript</span>
+                  <span class="chip-tech">Spring Boot</span>
+                  <span class="chip-tech">MySQL</span>
+                </div>
+                <div class="mt-auto flex flex-wrap gap-4 border-t border-white/10 pt-4">
+                  <a
+                    href="https://github.com/kesharaIndukumara/BusEase-BusTicketingSystem-FrontEnd"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-300 hover:text-white"
+                  >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5Z"
+                      />
+                    </svg>
+                    Frontend
+                  </a>
+                  <a
+                    href="https://github.com/kesharaIndukumara/BusEase-TicketingSystem-Backend"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-300 hover:text-white"
+                  >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5Z"
+                      />
+                    </svg>
+                    Backend
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Clothify -->
+            <article class="card card-hover reveal flex flex-col overflow-hidden">
+              <div
+                class="relative flex h-36 items-center justify-center border-b border-white/10 bg-gradient-to-br from-brand-600/25 via-ink-850 to-ink-900"
+              >
+                <svg
+                  class="h-10 w-10 text-brand-300"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23Z"
+                  />
+                </svg>
+                <span class="absolute bottom-3 left-4 font-mono text-xs text-brand-200/80">~/clothify-pos</span>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <div class="flex items-start justify-between gap-3">
+                  <h3 class="text-lg">Clothify Store POS</h3>
+                  <span class="flex-none font-mono text-xs text-slate-500">Jul 2025</span>
+                </div>
+                <p class="mt-1 text-sm text-brand-300">Point-of-Sale Desktop App</p>
+                <p class="mt-3 text-sm leading-relaxed text-slate-400">
+                  A JavaFX desktop application for clothing-store management, covering the full retail workflow from
+                  stock to sales.
+                </p>
+                <ul class="mt-4 space-y-1.5 text-sm text-slate-400">
+                  <li class="flex gap-2">
+                    <span class="text-brand-400">&rsaquo;</span> Product management &amp; inventory tracking
+                  </li>
+                  <li class="flex gap-2"><span class="text-brand-400">&rsaquo;</span> Sales processing</li>
+                  <li class="flex gap-2"><span class="text-brand-400">&rsaquo;</span> Customer management</li>
+                  <li class="flex gap-2"><span class="text-brand-400">&rsaquo;</span> Reporting</li>
+                </ul>
+                <div class="mt-5 flex flex-wrap gap-1.5">
+                  <span class="chip-tech">JavaFX</span>
+                  <span class="chip-tech">MySQL</span>
+                  <span class="chip-tech">Scene Builder</span>
+                  <span class="chip-tech">Google Guice</span>
+                </div>
+                <div class="mt-auto flex gap-4 border-t border-white/10 pt-4">
+                  <a
+                    href="https://github.com/kesharaIndukumara/Clothify-Store-POS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 text-sm font-medium text-slate-300 hover:text-white"
+                  >
+                    <svg class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                      <path
+                        d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5Z"
+                      />
+                    </svg>
+                    Code
+                    <svg
+                      class="h-3.5 w-3.5 text-slate-500"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      aria-hidden="true"
+                    >
+                      <path d="M7 17 17 7" />
+                      <path d="M7 7h10v10" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <p class="mt-8 text-sm text-slate-500">
+            More on
+            <a
+              href="https://github.com/kesharaIndukumara"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="link-underline"
+              >github.com/kesharaIndukumara</a
+            >.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============================= EDUCATION ============================= -->
+      <section id="education" class="section" aria-labelledby="education-title">
+        <div class="container-page">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow">06 &middot; Education &amp; Certifications</p>
+            <h2 id="education-title" class="section-title">Learning foundation</h2>
+          </div>
+
+          <div class="mt-12 grid gap-10 lg:grid-cols-2">
+            <div class="space-y-5">
+              <h3 class="text-sm font-mono uppercase tracking-wider text-brand-300">Education</h3>
+
+              <div class="card reveal p-6">
+                <div class="flex flex-wrap items-start justify-between gap-2">
+                  <h4 class="text-base">Bachelor of Information Technology (BIT)</h4>
+                  <span class="flex-none font-mono text-xs text-slate-500">2024 &ndash; Present</span>
+                </div>
+                <p class="mt-1 text-sm text-brand-300">University of Colombo</p>
+                <p class="mt-3 text-sm leading-relaxed text-slate-400">
+                  Currently in the second year, having completed a strong first year covering core computing
+                  fundamentals, object-oriented programming, data structures &amp; algorithms, computer networking and
+                  professional communication.
+                </p>
+              </div>
+
+              <div class="card reveal p-6">
+                <div class="flex flex-wrap items-start justify-between gap-2">
+                  <h4 class="text-base">ICD Developer Programme</h4>
+                  <span class="flex-none font-mono text-xs text-slate-500">2024 &ndash; 2025</span>
+                </div>
+                <p class="mt-1 text-sm text-brand-300">iCET</p>
+                <p class="mt-3 text-sm leading-relaxed text-slate-400">
+                  A one-year industry-focused developer programme bridging academic knowledge with real-world software
+                  engineering practice, with hands-on exposure to professional tools, frameworks and workflows including
+                  React and Next.js.
+                </p>
+              </div>
+            </div>
+
+            <div class="space-y-5">
+              <h3 class="text-sm font-mono uppercase tracking-wider text-brand-300">Certifications</h3>
+
+              <ul class="card reveal divide-y divide-white/10">
+                <li class="flex items-center justify-between gap-4 p-5">
+                  <div>
+                    <p class="text-sm text-slate-200">Kubernetes for Absolute Beginners</p>
+                    <p class="text-xs text-slate-500">KodeKloud &middot; 2026</p>
+                  </div>
+                  <a
+                    href="https://learn.kodekloud.com/certificate/b455979c-06e6-40b4-a63f-2b5f32faa795"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex-none text-xs font-medium text-brand-300 hover:text-brand-200"
+                    >Verify &rarr;</a
+                  >
+                </li>
+                <li class="flex items-center justify-between gap-4 p-5">
+                  <div>
+                    <p class="text-sm text-slate-200">Linux for Absolute Beginners</p>
+                    <p class="text-xs text-slate-500">KodeKloud &middot; 2026</p>
+                  </div>
+                  <a
+                    href="https://learn.kodekloud.com/certificate/22a00084-8ecb-42b8-98dc-faf184064847"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex-none text-xs font-medium text-brand-300 hover:text-brand-200"
+                    >Verify &rarr;</a
+                  >
+                </li>
+                <li class="flex items-center justify-between gap-4 p-5">
+                  <div>
+                    <p class="text-sm text-slate-200">Docker for Absolute Beginners</p>
+                    <p class="text-xs text-slate-500">KodeKloud &middot; 2026</p>
+                  </div>
+                  <a
+                    href="https://learn.kodekloud.com/certificate/7300da94-4f0e-4591-a249-b40d90f62612"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="flex-none text-xs font-medium text-brand-300 hover:text-brand-200"
+                    >Verify &rarr;</a
+                  >
+                </li>
+                <li class="flex items-center justify-between gap-4 p-5">
+                  <div>
+                    <p class="text-sm text-slate-200">Web Design for Beginners</p>
+                    <p class="text-xs text-slate-500">University of Moratuwa &middot; 2024</p>
+                  </div>
+                </li>
+                <li class="flex items-center justify-between gap-4 p-5">
+                  <div>
+                    <p class="text-sm text-slate-200">Python for Beginners</p>
+                    <p class="text-xs text-slate-500">University of Moratuwa &middot; 2024</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============================= CONTACT ============================= -->
+      <section id="contact" class="section bg-white/[0.015]" aria-labelledby="contact-title">
+        <div class="container-page">
+          <div class="reveal mx-auto max-w-2xl text-center">
+            <p class="eyebrow justify-center">07 &middot; Contact</p>
+            <h2 id="contact-title" class="section-title">Let&rsquo;s work together</h2>
+            <p class="section-lead mx-auto">
+              I&rsquo;m open to junior and associate software engineer roles. The fastest way to reach me is email;
+              I usually reply within a day.
+            </p>
+
+            <div class="mt-8 flex flex-wrap justify-center gap-3">
+              <a href="mailto:kesharaindukumara@outlook.com" class="btn-primary">
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <rect x="2" y="4" width="20" height="16" rx="2" />
+                  <path d="m22 7-10 6L2 7" />
+                </svg>
+                hello.keshara@gmail.com
+              </a>
+              <a href="tel:+94775486816" class="btn-ghost">
+                <svg
+                  class="h-4 w-4"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.68 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.32 1.85.55 2.81.68A2 2 0 0 1 22 16.92Z"
+                  />
+                </svg>
+                +94 77 548 6816
+              </a>
+            </div>
+
+            <div class="mt-8 flex items-center justify-center gap-3">
+              <a
+                href="https://github.com/kesharaIndukumara"
+                class="icon-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub profile"
+              >
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.8 10.9.6.1.8-.2.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6 4.5-1.5 7.8-5.8 7.8-10.9C23.5 5.7 18.3.5 12 .5Z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kesharaindukumara/"
+                class="icon-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile"
+              >
+                <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14ZM7.12 20.45H3.55V9h3.57v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"
+                  />
+                </svg>
+              </a>
+              <a href="assets/resume.pdf" class="icon-btn" download aria-label="Download resume (PDF)">
+                <svg
+                  class="h-5 w-5"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+              </a>
+            </div>
+
+            <p class="mt-6 text-sm text-slate-500">Based in Kelanimulla, Sri Lanka</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============================= FOOTER ============================= -->
+    <footer class="border-t border-white/10 py-8">
+      <div class="container-page flex flex-col items-center justify-between gap-3 text-sm text-slate-500 sm:flex-row">
+        <p>&copy; <span id="year">2025</span> Keshara Indukumara</p>
+        <p>Built with HTML, CSS &amp; Tailwind &middot; <a href="#home" class="link-underline">Back to top</a></p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>

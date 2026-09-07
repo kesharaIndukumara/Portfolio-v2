@@ -10,14 +10,6 @@ framework and no build step. Styling uses the [Tailwind Play CDN]
 Just open `index.html` in a browser. For clean relative-path loading you can
 serve the folder instead:
 
-```bash
-# any one of these
-npx --yes http-server -p 5173 -c-1 .
-python -m http.server 5173
-```
-
-Then visit <http://localhost:5173>.
-
 ## Structure
 
 ```
